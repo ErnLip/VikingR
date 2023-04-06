@@ -1,0 +1,30 @@
+.gym {
+  max-width: 1500px;
+  padding-left: 8rem;
+  margin: 8.5rem 0;
+}
+
+.gym_content {
+  display: flex;
+  justify-content: space-between;
+}
+.gym_content p {
+  font-size: 1.06rem;
+  font-weight: 400;
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 2rem;
+}
+
+.gym_title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.slideshow-container {
+  box-sizing: border-box;
+  max-width: 560px;
+  position: relative;
+  margin: auto;
+}/*# sourceMappingURL=about_gym.css.map */

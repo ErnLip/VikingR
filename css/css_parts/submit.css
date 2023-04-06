@@ -1,0 +1,74 @@
+.contact_form {
+  padding-left: 8rem;
+}
+.contact_form label {
+  color: #FFFFFF;
+}
+
+.contact_form_inner span {
+  color: #FFFFFF;
+}
+
+.contact_form_inner {
+  margin-bottom: 20px;
+}
+
+.name {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  min-width: 400px;
+  min-height: 50px;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(27, 38, 44, 0.5);
+  box-shadow: inset 0px 0px 5px rgba(50, 130, 184, 0.2);
+  border-radius: 4px;
+}
+
+.email {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  min-width: 400px;
+  min-height: 50px;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(27, 38, 44, 0.5);
+  box-shadow: inset 0px 0px 5px rgba(50, 130, 184, 0.2);
+  border-radius: 4px;
+}
+
+textarea {
+  min-width: 400px;
+  min-height: 220px;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(27, 38, 44, 0.5);
+  box-shadow: inset 0px 0px 5px rgba(50, 130, 184, 0.2);
+  border-radius: 4px;
+}
+
+.message {
+  margin-top: 10px;
+}
+
+.phone {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  min-width: 400px;
+  min-height: 50px;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(27, 38, 44, 0.5);
+  box-shadow: inset 0px 0px 5px rgba(50, 130, 184, 0.2);
+  border-radius: 4px;
+}
+
+.submit {
+  margin-top: 42px;
+  margin-bottom: 120px;
+  min-width: 400px;
+  min-height: 40px;
+  font-size: 1.06rem;
+  background: #D30000;
+  padding: 0.66rem 2rem;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=submit.css.map */

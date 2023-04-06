@@ -1,0 +1,32 @@
+.about {
+  padding-left: 8rem;
+  margin: 8.5rem 0;
+}
+
+.about_inner {
+  display: flex;
+}
+
+.about_contant {
+  margin-left: 2rem;
+}
+.about_contant p {
+  font-size: 1.06rem;
+  font-weight: 400;
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 2rem;
+}
+.about_contant .social svg {
+  margin-right: 1rem;
+}
+
+.about_title, .about_bottom {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.social a {
+  text-decoration: none;
+}/*# sourceMappingURL=about.css.map */

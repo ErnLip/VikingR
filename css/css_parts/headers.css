@@ -1,0 +1,86 @@
+.header {
+  padding: 1.2rem 2rem;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+.logo.text a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.logo.text a:after {
+  content: "R";
+  color: #D30000;
+}
+
+.nav_link {
+  margin-left: 2rem;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+.nav_link.ru, .nav_link .lv {
+  margin: 2px;
+  color: white;
+}
+.nav_link:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: #D30000;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  z-index: 1;
+  transition: width 0.2s linear;
+}
+.nav_link:hover:after {
+  width: 100%;
+}
+
+.bottom_header {
+  padding: 1.2rem 2rem;
+  background: #D30000;
+}
+
+.bottom_header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom_logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+.bottom_logo.bottom_logo .text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.bottom_logo.bottom_logo .text:after {
+  content: "R";
+  color: #1A1A1A;
+}
+
+.name_space {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}/*# sourceMappingURL=headers.css.map */

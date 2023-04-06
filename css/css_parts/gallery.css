@@ -1,0 +1,11 @@
+.gallery_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.gallery_tittle {
+  margin-bottom: 2rem;
+  padding-left: 8rem;
+}/*# sourceMappingURL=gallery.css.map */

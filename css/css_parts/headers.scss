@@ -1,0 +1,106 @@
+.header{
+    padding: 1.2rem 2rem;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+    cursor: pointer;
+
+    &.text a{
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+
+        &:after{
+            content:"R";
+            color: #D30000;
+        }
+    }
+}
+
+
+
+//NAV LINK
+
+.nav_link {
+ 
+    margin-left: 2rem;
+    position: relative;
+    
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+
+    &.ru, .lv{
+        margin: 2px;
+        color: white;
+    }
+
+    &:after{
+        content: "";
+        width: 0;
+        height: 2px;
+        background: #D30000;
+
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        z-index: 1;
+
+        transition: width .2s linear;
+    }
+
+    &:hover {
+        &:after{
+            width: 100%;
+        }
+    }
+}
+
+// BOTTOM HEADER
+
+.bottom_header{
+    padding: 1.2rem 2rem;
+    background: #D30000;
+}
+
+.bottom_header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom_logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+
+    &.bottom_logo .text{
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+
+        &:after{
+            content:"R";
+            color: #1A1A1A;
+        }
+    }
+}
+
+.name_space{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}

@@ -1,0 +1,97 @@
+.price_list {
+  min-width: 1500px;
+  padding-left: 8rem;
+}
+
+.prices {
+  display: flex;
+  gap: 1rem;
+}
+
+.services_title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.month_one,
+.personal,
+.personal_three,
+.month_personal,
+.month_young {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 290px;
+  min-height: 310px;
+  padding-bottom: 2em;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid #4B4B4B;
+  border-radius: 8px;
+}
+.month_one:nth-child(3),
+.personal:nth-child(3),
+.personal_three:nth-child(3),
+.month_personal:nth-child(3),
+.month_young:nth-child(3) {
+  background: #D30000;
+}
+.month_one:nth-child(4),
+.personal:nth-child(4),
+.personal_three:nth-child(4),
+.month_personal:nth-child(4),
+.month_young:nth-child(4) {
+  background: #D30000;
+  margin: 0;
+}
+.month_one:nth-child(5),
+.personal:nth-child(5),
+.personal_three:nth-child(5),
+.month_personal:nth-child(5),
+.month_young:nth-child(5) {
+  background: #D30000;
+  margin: 0;
+}
+
+.services {
+  max-width: 235px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.services p {
+  font-size: 1.06rem;
+  font-weight: 400;
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 2rem;
+}
+.services .price {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+.services .black {
+  background-color: #1A1A1A;
+}
+.services .buy {
+  margin-top: 20px;
+}
+.services .bottom_services {
+  font-size: 1.06rem;
+  font-weight: 400;
+  color: white;
+}
+
+.first {
+  position: relative;
+  left: 35px;
+}/*# sourceMappingURL=price_list.css.map */

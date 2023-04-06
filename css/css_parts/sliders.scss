@@ -1,0 +1,145 @@
+// VIDEO Slider   
+
+.recent_project_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8rem;
+
+    a{
+       background: transparent; 
+       border: none;
+       color: #FFFFFF;
+       cursor: pointer;
+       text-decoration: none;
+    }
+}
+
+.recent_project{
+    margin-bottom: 10rem;
+}
+
+.video-carousel {
+    margin-left: 115px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+  
+.video-container {
+    flex: 0 0 calc(100% / 3);
+    margin-right: 32px;
+}
+
+.video-container:last-child {
+    margin-right: 0; 
+}
+  
+@media (max-width: 768px) {
+    .video-container {
+      flex: 0 0 calc(100% / 3); 
+    }
+}
+
+
+// GALLERY SLIDER
+
+.gallery_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8rem;
+
+    a{
+       background: transparent; 
+       border: none;
+       color: #FFFFFF;
+       cursor: pointer;
+       text-decoration: none;
+    }
+}
+
+.gallery{
+    margin-bottom: 10rem;
+}
+  
+.images-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    margin-left: 115px;
+    
+    img{
+        max-height: 300px;
+        max-width: 300px;
+    }
+}
+  
+.images-container {
+    margin-right: 10px;
+}
+
+.images-container:last-child {
+    margin-right: 0; 
+}
+
+@media (max-width: 768px) {
+    .images-container {
+        flex: 0 0 calc(100% / 3); 
+    }
+}
+@media (max-width: 480px) {
+    .images-container {
+        flex: 0 0 100%; 
+        margin-right: 0; 
+    }
+}
+
+// GYM SLIDER
+
+.mySlides {
+    display: none;
+}
+  
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
